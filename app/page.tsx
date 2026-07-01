@@ -4,6 +4,8 @@ import Features from "@/components/landing/Features";
 import DashboardPreview from "@/components/landing/DashboardPreview";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Testimonials from "@/components/landing/Testimonials";
+import CTA from "@/components/landing/CTA";
+import Footer from "@/components/landing/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,10 @@ export default function Home() {
       <HowItWorks />
 
       <Testimonials />
+
+      <CTA />
+
+      <Footer />
     </main>
   );
 }

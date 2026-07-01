@@ -28,11 +28,18 @@ export default function Navbar() {
             Dashboard
           </Link>
 
-          <Link
-            href="#pricing"
+          <Link 
+            href="#how-it-works"
             className="text-sm font-medium text-slate-600 transition hover:text-emerald-600"
           >
-            Pricing
+            How It Works
+          </Link>
+
+          <Link 
+            href="#testimonials"
+            className="text-sm font-medium text-slate-600 transition hover:text-emerald-600"
+          >
+            Testimonials
           </Link>
 
           <Link
